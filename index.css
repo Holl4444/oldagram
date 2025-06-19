@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'SourcePro';
+    src: url('/fonts/SourceCodePro-VariableFont_wght.ttf');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'SourcePro', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+}
+
+.content {
+    margin-top: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23.44rem;
+    height: fit-content;
+    font-size: 0.75rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 21.5rem;
+    height: 4.19rem;
+    align-items: center;
+}
+
+.grey-line {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 2px;
+    margin: 0;
+}
+
+.post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    width: 21.75rem;
+    padding: 0.63rem;
+}
+
+.logo {
+    width: 7.94rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 2.13rem;
+    height: 2.13rem;
+}
+
+.avatar-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.2rem;
+    width: 19.19rem;
+}
+
+.full-name, .user-name, .like-count {
+    font-weight: 900;
+    font-size: 0.813rem;
+}
+
+.avatar-text p, .avatar-text h1, .post-text p {
+    margin: 0;
+}
+
+.post-img {
+    width: 100%;
+    height: 23.44rem;
+}
+
+.post-info {
+    margin-top: 1.313rem;
+    margin-bottom: 1rem;
+    margin-left: 0.63rem;
+    width: 21.63rem;
+    height: 4.88rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.icon-wrapper {
+    width: 6.53rem;
+    height: 1.38rem;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 1rem;
+}
+
+button {
+    all: unset;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.icon {
+    width: 1.39rem;
+    height: 1.38rem;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.12rem;
+    row-gap: 1rem;
+}
+
+.post-divider {
+    height: 1.56rem;
+    background-color: #ededed;
+}
